@@ -1,0 +1,19 @@
+{
+    "name": "ligamatic-client-node",
+    "version": "0.0.1",
+    "description": "Ligamatic client for node.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "node_modules/mocha/bin/_mocha test test/integration --timeout 10000",
+        "test-cov": "istanbul cover node_modules/mocha/bin/_mocha test"
+    },
+    "author": "d3media AG",
+    "license": "MIT",
+    "devDependencies": {
+        "mocha": "^2.2.5",
+        "istanbul": "^0.3.14"
+    },
+    "dependencies": {
+        "request": "^2.57.0"
+    }
+}
